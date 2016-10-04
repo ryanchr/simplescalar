@@ -1,0 +1,49 @@
+---- bus_master_port 匹配 (48 in 7 文件) ----
+Pe_unit.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\rca_unit):	bus_master_port->Read(unique_priority,data, address);   //get data by bus read
+Pe_unit.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\rca_unit):	while ((bus_master_port->get_status(unique_priority) != BUS_OK) &&
+Pe_unit.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\rca_unit):		(bus_master_port->get_status(unique_priority) != BUS_ERROR))
+Pe_unit.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\rca_unit):	if (bus_master_port->get_status(unique_priority) == BUS_ERROR)
+Pe_unit.h (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\rca_unit):	sc_port<Bus_non_blocking_if> bus_master_port;		//port for read/write on bus
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, value, address);
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &data32, addr_align);
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &data32, addr_align);
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &value, address);
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Write(_unique_priority, &value, address);
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-outorder.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-outorder.h (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	sc_port<Bus_non_blocking_if> bus_master_port;
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, value, address);
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &data32, addr_align);
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &data32, addr_align);
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Read(_unique_priority, &value, address);
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	bus_master_port->Write(_unique_priority, &value, address);
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	while ((bus_master_port->get_status(_unique_priority) != BUS_OK) &&
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):		(bus_master_port->get_status(_unique_priority) != BUS_ERROR))
+Sim-safe.cpp (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	if (bus_master_port->get_status(_unique_priority) == BUS_ERROR)
+Sim-safe.h (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\core):	sc_port<Bus_non_blocking_if> bus_master_port;
+Topsystem.h (f:\workspace\reconfigurable\各种源码_备份版+参考资料\pesim with simplescalr\pe_v1_20100402_newest\pe_v1_20100402_newest\pe_v1\src\topsystem):		core->bus_master_port(*bus);
